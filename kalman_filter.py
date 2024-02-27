@@ -1,11 +1,13 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+
 N = 100
 dNoise = 1
 dSignal = 5
 r = 0.99
 en = 0.1
+
 
 x = np.zeros(N)
 x[0] = np.random.normal(0, dSignal)
